@@ -1,0 +1,85 @@
+
+html, body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222; 
+    color: #fff; 
+}
+
+header {
+    background-color: #333; 
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.query-section {
+    padding: 50px 0;
+}
+
+.query-section .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.query {
+    background-color: #444; 
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.query:hover {
+    transform: translateY(-5px); 
+    background-color: #555; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.query.accepted {
+    border: 2px solid rgb(79, 248, 79);
+    box-shadow: 0 0 10px rgba(92, 184, 92, 0.5); 
+}
+
+.query.pending {
+    border: 2px solid #f0ad4e; 
+    box-shadow: 0 0 10px rgba(240, 173, 78, 0.5); 
+}
+
+.query h2 {
+    color: #ff7f50; 
+    margin-bottom: 10px;
+}
+
+.query.accepted h2 {
+    color: #5cb85c; 
+}
+
+.query.pending h2 {
+    color: #f0ad4e; 
+}
+
+.query p {
+    margin-bottom: 5px;
+}
+
